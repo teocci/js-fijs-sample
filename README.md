@@ -1,8 +1,8 @@
 ## Flight Indicators JS Sample (FIJS Sample)
 
-[![NPM Status](https://img.shields.io/npm/v/flight-indicators-js.svg?style=flat)][2]
+This basic implementation shows how to use [FIJS][2] with `npm`.
 
-This basic implementation shows how to use [FIJS][1] with `npm`.
+[![NPM Status](https://img.shields.io/npm/v/flight-indicators-js.svg?style=flat)][2]
 
 ### Installation
 
