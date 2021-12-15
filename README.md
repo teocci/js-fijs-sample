@@ -2,7 +2,7 @@
 
 This basic implementation shows how to use [FIJS][2] with `npm`.
 
-[![NPM Status](https://img.shields.io/npm/v/flight-indicators-js.svg?style=flat)][2]
+[ ![NPM Status](https://img.shields.io/npm/v/flight-indicators-js.svg?style=flat) ][2]
 
 ### Installation
 
@@ -53,7 +53,8 @@ The code supplied here is covered under the MIT Open Source License.
 
 Flight Indicators JS svg images was developed based on [Flight Indicators jQuery plugin][4].
 
-    [1]: https://img.shields.io/npm/v/flight-indicators-js.svg?style=flat
-    [2]: https://www.npmjs.com/package/flight-indicators-js
-    [3]: https://github.com/teocci/js-module-flight-indicators/blob/main/assets/fijs-sample.png?raw=true
-    [4]: http://sebmatton.github.io/
+
+[1]: https://img.shields.io/npm/v/flight-indicators-js.svg?style=flat
+[2]: https://www.npmjs.com/package/flight-indicators-js
+[3]: https://github.com/teocci/js-module-flight-indicators/blob/main/assets/fijs-sample.png?raw=true
+[4]: http://sebmatton.github.io/
