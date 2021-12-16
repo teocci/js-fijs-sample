@@ -16,6 +16,7 @@ Add `webpack` and plugins:
 
 ```console
 npm i webpack webpack-cli --save-dev
+npm i webpack-dev-server --save-dev
 npm i css-loader --save-dev
 npm i copy-webpack-plugin --save-dev
 ```
@@ -27,19 +28,46 @@ mkdir src
 mkdir css
 mkdir img
 ```
-Copy `package`, `webpack.config.js` files from this repository.
+Copy `package.json` and `webpack.config.js` files from this repository into your project directory.
+
+In the `src` directory copy `index.html` and `index.js`
 
 Install `FIJS`:
 ```console
 npm i flight-indicators-js@latest
 ```
 
-In the `src` directory copy `index.html` and `index.js`
+Copy the `svg` images form the library into the `img` directory
 
-Finally, build and open the file `./build/index.html`
-```console
-npm run build
+```sh
+cp -v node_modules/flight-indicators-js/img/*.svg ./img
 ```
+Your directory must look like:
+```console
+project/
+|css/
+    |flight-indicators.css
+    |style.css
+|img/
+    |*.svg
+|src/
+    |index.js
+    |index.html
+|package.json
+|webpack.config.js
+```
+
+Finally, start the dev server:
+```console
+npm run start
+
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:8080/
+...
+webpack 5.65.0 compiled successfully in 847 ms
+```
+
+Then open `http://localhost:8080/` in your browser.
 
 ### Author
 

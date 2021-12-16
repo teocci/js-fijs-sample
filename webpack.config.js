@@ -3,6 +3,7 @@ const CopyPlugin = require("copy-webpack-plugin")
 
 module.exports = {
     entry: './src/index.js',
+    devtool: false,
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'build'),
@@ -31,5 +32,10 @@ module.exports = {
                 use: 'file-loader'
             },
         ]
+    },
+    devServer: {
+        static: {
+            directory: path.join(__dirname, 'build'),
+        },
     },
 }
