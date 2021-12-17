@@ -38,10 +38,15 @@ npm i flight-indicators-js@latest
 ```
 
 - Copy the `svg` images form the library into the `img` directory
-- Copy the `flight-indicators.css` file form the library into the `css` directory
 
 ```sh
 cp -v node_modules/flight-indicators-js/img/*.svg ./img
+```
+
+- Copy the `flight-indicators.css` file form the library into the `css` directory
+
+```sh
+cp -v node_modules/flight-indicators-js/css/flight-indicators.css ./css
 ```
 
 - Your directory must look like:
